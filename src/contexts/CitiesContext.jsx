@@ -11,7 +11,7 @@ import {
 
 const CitiesContext = createContext();
 
-const BASE_URL = "https://cities-fake-api.vercel.app";
+const BASE_URL = "http://localhost:8000";
 
 function reducer(state, action) {
   // remember reducer has to be a pure function, so we can not do API calls here
